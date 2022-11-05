@@ -1,9 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import {  } from "./CardWidget";
-import ItemListContainer, {  } from "./ItemListContainer";
-import NavBar, {  } from "./NavBar";
+import NavBar from "./components/NavBar";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,8 +11,6 @@ function App() {
    <div>
     <NavBar/>
    </div>
-
-  
     </div>
   )
 }
